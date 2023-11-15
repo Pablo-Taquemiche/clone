@@ -1,35 +1,751 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html data-template="template-custom_template" lang="es">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <meta name="description" content="Ejercemos exclusivamente en el área de Visas de EE.UU., residencia en EE.UU. y nacionalidad americana.">
-    <!--El token que usará el usuario para especificar que la persona realmente realiza peticiones a la página-->
-    <meta name="csrf-param" content="authenticity_token">
-    <meta name="csrf-token" content="">
-
-    <meta name="turbo-visit-control" content="reload">
-
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <link rel="stylesheet" media="all" href="">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:600,400|Roboto|Playfair+Display|Noto+Sans:400|Lato:700|Material+Icons&amp;display=swap" type="text/css">
     <title>Trámites Migratorios - Lic Martínez</title>
+      <meta name="description" content="Ejercemos exclusivamente en el área de Visas de EE.UU., residencia en EE.UU. y nacionalidad americana." />
 
-    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-4WMFP8J3SP&amp;l=dataLayer&amp;cx=c"></script>
-    <script src="https://connect.facebook.net/signals/config/359439925834370?v=2.9.138&amp;r=stable&amp;domain=martinezyasociadosabogados.principalwebsite.com" async=""></script>
-    <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-4WMFP8J3SP"></script>
+
+    <!-- SCHEMA markup test for the site qrenmadera.com -->
+
+    
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="XJTN0SKUBA5CBbOTQ9iZmHS0V2jylpAn_ynATIYY7vEV7JXTAoUtYhtyqDKS9T4cKJXxLPc4ew10ETwzycJqeA" />
+    
+
+    <link rel="stylesheet" media="all" href="/assets/application-077f5e372669535046070a79f4589bcff7ad62602d1f2833a0611bd242cd10b4.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:600,400|Roboto|Playfair+Display|Noto+Sans:400|Lato:700|Material+Icons&display=swap' rel='stylesheet' type='text/css'>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WMFP8J3SP"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-        gtag('config', 'G-4WMFP8J3SP');
+      gtag('config', 'G-4WMFP8J3SP');
     </script>
-</head>
-<body>
-    
-    
-</body>
+
+      <meta name="turbo-visit-control" content="reload">
+  <!--CODEHEAD-->
+    <!-- Global site tag (gtag.js) - Google Ads: 435839175 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-435839175"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-435839175');
+</script>
+<head>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '359439925834370');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=359439925834370&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+ </head>
+  <!--CODEHEAD-->
+
+    <script type="importmap" data-turbo-track="reload">{
+  "imports": {
+    "application": "/assets/application-0f82d2125bb1f5fc360974b26160e165f01b16c958365d94eda7b70664cdd509.js",
+    "bootstrap": "https://ga.jspm.io/npm:bootstrap@5.1.3/dist/js/bootstrap.esm.js",
+    "@popperjs/core": "https://ga.jspm.io/npm:@popperjs/core@2.11.2/lib/index.js",
+    "@hotwired/turbo-rails": "/assets/turbo.min-eb93bd4e160cb5264179fcf7ecd0adc7356179432725f98615e7da8d118c0d1b.js",
+    "@hotwired/stimulus": "/assets/stimulus.min-ed95664db82d67e25602caa4dd9d5b795f5e16132fc8fc862435f1c0e5ae16c7.js",
+    "@hotwired/stimulus-loading": "/assets/stimulus-loading-4493a69366827164e47b17393ddf05a52d8cc1e5d27c8656f602e3c44fd08770.js",
+    "jquery": "https://ga.jspm.io/npm:jquery@3.7.0/dist/jquery.js",
+    "pdfjs": "https://ga.jspm.io/npm:pdfjs@2.5.2/lib/index.js",
+    "#lib/internal/streams/from.js": "https://ga.jspm.io/npm:readable-stream@3.6.2/lib/internal/streams/from-browser.js",
+    "#lib/internal/streams/stream.js": "https://ga.jspm.io/npm:readable-stream@3.6.2/lib/internal/streams/stream-browser.js",
+    "@rkusa/linebreak": "https://ga.jspm.io/npm:@rkusa/linebreak@1.0.0/src/linebreaker.js",
+    "buffer": "https://ga.jspm.io/npm:@jspm/core@2.0.1/nodelibs/browser/buffer.js",
+    "events": "https://ga.jspm.io/npm:@jspm/core@2.0.1/nodelibs/browser/events.js",
+    "inherits": "https://ga.jspm.io/npm:inherits@2.0.4/inherits_browser.js",
+    "opentype.js": "https://ga.jspm.io/npm:opentype.js@1.3.4/dist/opentype.module.js",
+    "pako/lib/inflate.js": "https://ga.jspm.io/npm:pako@2.1.0/lib/inflate.js",
+    "process": "https://ga.jspm.io/npm:@jspm/core@2.0.1/nodelibs/browser/process-production.js",
+    "readable-stream": "https://ga.jspm.io/npm:readable-stream@3.6.2/readable-browser.js",
+    "safe-buffer": "https://ga.jspm.io/npm:safe-buffer@5.2.1/index.js",
+    "string_decoder": "https://ga.jspm.io/npm:string_decoder@1.3.0/lib/string_decoder.js",
+    "tiny-inflate": "https://ga.jspm.io/npm:tiny-inflate@1.0.3/index.js",
+    "unicode-trie": "https://ga.jspm.io/npm:unicode-trie@0.3.1/index.js",
+    "unorm": "https://ga.jspm.io/npm:unorm@1.6.0/lib/unorm.js",
+    "util": "https://ga.jspm.io/npm:@jspm/core@2.0.1/nodelibs/browser/util.js",
+    "util-deprecate": "https://ga.jspm.io/npm:util-deprecate@1.0.2/browser.js",
+    "uuid": "https://ga.jspm.io/npm:uuid@8.3.2/dist/esm-browser/index.js",
+    "pdfjs-dist": "https://ga.jspm.io/npm:pdfjs-dist@3.11.174/build/pdf.js",
+    "canvas": "https://ga.jspm.io/npm:canvas@2.11.2/browser.js",
+    "fs": "https://ga.jspm.io/npm:@jspm/core@2.0.1/nodelibs/browser/fs.js",
+    "http": "https://ga.jspm.io/npm:@jspm/core@2.0.1/nodelibs/browser/http.js",
+    "https": "https://ga.jspm.io/npm:@jspm/core@2.0.1/nodelibs/browser/https.js",
+    "url": "https://ga.jspm.io/npm:@jspm/core@2.0.1/nodelibs/browser/url.js",
+    "zlib": "https://ga.jspm.io/npm:@jspm/core@2.0.1/nodelibs/browser/zlib.js",
+    "controllers/application": "/assets/controllers/application-fe6a2fc5718f90d4185d8e8e15550b5d7cd05b03660bde63254dbab42e4913ef.js",
+    "controllers/cart_controller": "/assets/controllers/cart_controller-d215db939061e735a9b07f74f82ae5c0d48bb4e7a1138b083d15c4936fcef6ec.js",
+    "controllers/checkout_options_controller": "/assets/controllers/checkout_options_controller-780082ee67d8e7bdfa7852cc68312aeb859a88b098c3685defaa5d65c5f6fda8.js",
+    "controllers/filter_controller": "/assets/controllers/filter_controller-753c50dea17d51f5dc9d89ae8bece1e5d081689eea14b5850ab638a70bb399c3.js",
+    "controllers/footer_controller": "/assets/controllers/footer_controller-96357ca8f0bd59b7a6a8b24f5f143bc4709850abf35b36108e3f1dff6c728b2a.js",
+    "controllers/gallery_controller": "/assets/controllers/gallery_controller-47a139a5e2bf3948e22ace75fc3846d947b1159d82fcbe707ca26dbb1240eae4.js",
+    "controllers/header_image_selector_controller": "/assets/controllers/header_image_selector_controller-078d98fafd145c43cdf05c7f8ec98937adb7aa87aab1324c76d98b89878a7c14.js",
+    "controllers/hello_controller": "/assets/controllers/hello_controller-3f9dcf4c099c87dd08a4f3c612a2641e67babe75fc4742a8a50ee0dbefce7693.js",
+    "controllers/horizontal_pagination_controller": "/assets/controllers/horizontal_pagination_controller-862437fde5292d8d17c60c4b188cd6d625fcf7355ed78066489f61ef1dc63160.js",
+    "controllers/image_magnifier_controller": "/assets/controllers/image_magnifier_controller-fff6aa9b444d4c49b6948b17d2edcceaa5570814230ce28249205579ba189837.js",
+    "controllers": "/assets/controllers/index-87e19cb3701e81d8ef3918ce4bbb2929d89afd0c007f0b278e35b669dbc13fd1.js",
+    "controllers/jumbotron_controller": "/assets/controllers/jumbotron_controller-726207a1ed0e0e38f6f6415b83072cd52a4ba18f075f37d614ca831990d274f0.js",
+    "controllers/loading_controller": "/assets/controllers/loading_controller-cd4afe582ece2fb150a2a7d33c6c55f80af3f7c3d286e80e8b7fc566f2444975.js",
+    "controllers/modifier_controller": "/assets/controllers/modifier_controller-3f7b97d034c070482c6819f0ce5a4fb8bb19314219693eb7a0e4ceec577effd2.js",
+    "controllers/nav_controller": "/assets/controllers/nav_controller-b51411f4d0aa7ba2baed372e12733cce84b8bfde67fd333c21f305b1edc7d1be.js",
+    "controllers/pagination_controller": "/assets/controllers/pagination_controller-ed15be1adcd6fef69a6c9f444ad5594f77ab18634db46ae0280d5e21c51ea740.js",
+    "controllers/paypal_controller": "/assets/controllers/paypal_controller-29274b2f53976896adf0961cbd41a490eaab73777fa85c58f00417e1e645d51a.js",
+    "controllers/pdf_controller": "/assets/controllers/pdf_controller-b07dbf6ec8298ed0eb77ddbbb383eda16e5b33cf0671c6a4cf116ac854f99d09.js",
+    "controllers/products/classic_controller": "/assets/controllers/products/classic_controller-ee5b630f3d4fd304ddb679504391bd1c9fe7a4669b6da2c171bb1e31b48c3735.js",
+    "controllers/quantity_field_controller": "/assets/controllers/quantity_field_controller-8bdce9f244ba78511b4614e292ca144052e0c66a25162a89663f8228051b8c34.js",
+    "controllers/redirect_blank_controller": "/assets/controllers/redirect_blank_controller-d1d9cbd332a3251110159ffdd7630c977d8d8703f53235444e410e039eff8437.js",
+    "controllers/redirect_controller": "/assets/controllers/redirect_controller-b6598a69b90d50d039062bf94555d6e162a7f2754bff9adbc51adf0800f8a663.js",
+    "controllers/variants_controller": "/assets/controllers/variants_controller-84571d44c09a36f40ad5b5efd7fe2d3a2b9d3e97052d92cbb2e922b24d4d0f54.js"
+  }
+}</script>
+<link rel="modulepreload" href="/assets/application-0f82d2125bb1f5fc360974b26160e165f01b16c958365d94eda7b70664cdd509.js">
+<link rel="modulepreload" href="/assets/turbo.min-eb93bd4e160cb5264179fcf7ecd0adc7356179432725f98615e7da8d118c0d1b.js">
+<link rel="modulepreload" href="/assets/stimulus.min-ed95664db82d67e25602caa4dd9d5b795f5e16132fc8fc862435f1c0e5ae16c7.js">
+<link rel="modulepreload" href="/assets/stimulus-loading-4493a69366827164e47b17393ddf05a52d8cc1e5d27c8656f602e3c44fd08770.js">
+<script src="/assets/es-module-shims.min-d3b40209ae0194a2c8ba4cde50486359735a830f6651e033aeb9db78bd9af62a.js" async="async" data-turbo-track="reload"></script>
+<script type="module">import "application"</script>
+  </head>
+  <body>
+    <div id="loading-organizer" data-controller="loading">
+  <div id="loading-listener" class="loading-indicator" data-loading-target="indicator"></div>
+</div>
+
+    <div data-controller="image-magnifier" id="image-overlay-magnified" class="hidden" data-action="click->image-magnifier#unmagnify">
+  <div class="back-caller"></div>
+  <div id="inner-overlay">
+    <div id="inner-image" style="position: relative;display: flex; justify-content: center; margin-bottom:100px;">
+      <img data-target="image" src="">
+      <div class="image-magnifier">
+        <i class="fas fa-search-minus"></i>
+      </div>
+    </div>
+
+  </div>
+    <div style="text-align: center;max-width: 100vw; overflow-x: scroll; position: fixed; bottom: 0; left: 0; right: 0;">
+      <div class="inner-gallery" style="background: #ffffff; display: inline-flex; flex-direction: row; height: 100px; margin-top: 10px">
+      </div>
+    </div>
+</div>
+
+    <div id="page-content-body" class="">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="z-index: 99; color: #ffffff !important;background-color: #343a4080;" data-preserve-scroll data-controller="nav">
+  <div class="container-fluid mt-0">
+    <a class="navbar-brand" href="/">
+        <img class="brand-height" style="background: #fff" src="https://landingwebimg.s3.amazonaws.com/uploads/landing_page_business/logo/59389/image-upload1685656178.jpeg" />
+</a>
+    <div class="buttons d-flex align-items-center">
+      <div class="d-md-block d-lg-none ml-auto" style="border: none;">
+        <ul class="navbar-nav p-2 d-flex flex-row justify-content-around">
+            <li class="nav-item phone" style="margin-right: 5px;">
+              <turbo-frame id="phone">
+  <form action="https://martinezyasociadosabogados.principalwebsite.com/contact_button_clicks?redirection=tel%3A2132837712&amp;type=phone" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="tl6XfpwDR10BIKUe_eg818OmK2unUS2HIpozDdqc4Ku9FSUiP3wnIaEIxKKv6qDCz9e2RSeOPSsJj4DCA3HFLQ" autocomplete="off" />
+    <button name="button" type="submit" class="btn btn-steel-blue btn-lg call z-index-2" style="background-color: #112235; padding: 3px 5px 3px 5px;">
+      <span class="number">
+        2132837712
+      </span>
+</button></form></turbo-frame>
+
+            </li>
+            <li class="nav-item phone">
+              <div class="text-center">
+                <turbo-frame id="whatsapp">
+  <form action="https://martinezyasociadosabogados.principalwebsite.com/contact_button_clicks?redirection=https%3A%2F%2Fwa.me%2F12132837712&amp;type=whatsapp" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Y2hbuCrLOIeWzXSy_GijV_-kbLBnd3qyrVcWSczP-7ZoI-nkibRY-zblFQ6uaj9C89Xxnueoah6GQqWGFSLeMA" autocomplete="off" />
+    <button name="button" type="submit" class="btn btn-steel-blue btn-lg z-index-2" style="background-color: #112235; padding: 3px 6px;">
+      <span><i class="fab fa-whatsapp"></i></span>
+</button></form></turbo-frame>
+              </div>
+            </li>
+        </ul>
+      </div>
+
+      <div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+      <ul class="navbar-nav " style="font-weight: bold; font-family: 'Open sans', sans-serif; font-size: 1.032258064516129rem;" >
+
+          <li class="nav-item">
+    <a class="nav-link custom-nav-link" id="gallerytrigger" href="/#imagesanchor">Imágenes</a>
+</li>
+
+          <li class="nav-item">
+    <a class="nav-link nav-drawer custom-nav-link " href="" id="slideout-anchor-40499" data-drawer-id="slideout-40499">
+      Productos
+    </a>
+</li>
+  <div id="slideout-40499" class="slideout hidden slideout-block">
+  <div class="slideout-header">
+    <button id="slideoutBackButton" href="#" class="btn btn-link slideout-back" title="Back" data-action="click->nav#closeSubMenu">
+      <i class="fas fa-arrow-left fa-lg"></i>
+    </button>
+    <button id="slideoutCloseButton-40499" href="#" class="btn btn-link slideout-close" title="Close">
+        <i class="fas fa-times fa-lg">
+            <span class="sr-only">Close slideout menu.</span>
+        </i>
+    </button>
+  </div>
+  <div class="slideout-content" style="height: calc(90vh); overflow-y:scroll">
+    <section class="slideout-section">
+            <h3 class="item-upcase section-title">
+    Trámites Migratorios
+  </h3>
+  <nav style="border-bottom: 1px solid lightgray; margin-bottom:10px;">
+    <ul class="list-unstyled section-list">
+          <li class="section-list-item item-upcase">
+            <a data-reload-permanent="true" href="/ciudadania-americana-naturalizacion-y-nacimiento-en-el-extranjero">CIUDADANÍA AMERICANA, NATURALIZACIÓN, Y NACIMIENTO EN EL EXTRANJERO.</a>
+          </li>
+          <li class="section-list-item item-upcase">
+            <a data-reload-permanent="true" href="/tarjeta-verde-y-residencia-para-los-estados-unidos">TARJETA VERDE Y RESIDENCIA PARA LOS ESTADOS UNIDOS</a>
+          </li>
+          <li class="section-list-item item-upcase">
+            <a data-reload-permanent="true" href="/visa-u">Visa U</a>
+          </li>
+          <li class="section-list-item item-upcase">
+            <a data-reload-permanent="true" href="/asilo-o-refugio">Asilo o Refugio</a>
+          </li>
+          <li class="section-list-item item-upcase">
+            <a data-reload-permanent="true" href="/peticion-familiar">Petición Familiar</a>
+          </li>
+          <li class="section-list-item item-upcase">
+            <a data-reload-permanent="true" href="/autorizacion-de-empleo">Autorización de Empleo</a>
+          </li>
+          <li class="section-list-item item-upcase">
+            <a data-reload-permanent="true" href="/visa-americana">Visa Americana</a>
+          </li>
+    </ul>
+  </nav>
+
+    </section>
+  </div>
+</div>
+
+          <li class="nav-item">
+    <a class="nav-link  custom-nav-link" href="/blog">Blog</a>
+</li>
+
+      </ul>
+
+      <ul class="d-sm-none d-md-none d-lg-block d-xl-block navbar-nav p-2 d-flex flex-row" style="display: flex !important; flex-direction: row !important;padding-top: 0 !important; padding-bottom: 0 !important;">
+
+          <li class="nav-item phone d-none d-sm-none d-lg-block" style="margin-right: 5px;">
+            <turbo-frame id="phone">
+  <form action="https://martinezyasociadosabogados.principalwebsite.com/contact_button_clicks?redirection=tel%3A2132837712&amp;type=phone" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="DonOgB-wAEYCvy5-2NFdBAYhlNa_3J_R41Uu9vGixuEFwnzcvM9gOqKXT8KK08ERClAJ-D8Dj33IQJ05KE_jZw" autocomplete="off" />
+    <button name="button" type="submit" class="btn btn-steel-blue btn-lg call z-index-2" style="background-color: #112235; padding: 3px 5px 3px 5px;">
+      <span class="number">
+        2132837712
+      </span>
+</button></form></turbo-frame>
+
+          </li>
+          <li class="nav-item phone d-none d-sm-none d-lg-block">
+            <div class="text-center">
+              <turbo-frame id="whatsapp">
+  <form action="https://martinezyasociadosabogados.principalwebsite.com/contact_button_clicks?redirection=https%3A%2F%2Fwa.me%2F12132837712&amp;type=whatsapp" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="mHfsYpw9y07mib7UVSkEO-ZOrlfpnlO4jZwDEwwN8buTPF4-P0KrMkah32gHK5gu6j8zeWlBQxSmibDc1eDUPQ" autocomplete="off" />
+    <button name="button" type="submit" class="btn btn-steel-blue btn-lg z-index-2" style="background-color: #112235; padding: 3px 6px;">
+      <span><i class="fab fa-whatsapp"></i></span>
+</button></form></turbo-frame>
+            </div>
+          </li>
+
+
+      </ul>
+    </div>
+  </div>
+
+</nav>
+<style>
+ .custom-nav-link {
+   color: #ffffff !important;
+ }
+ nav .container-fluid {
+   padding-left:0.5rem;
+   padding-right:0.5rem;
+ }
+
+
+</style>
+
+        <style>
+    #custom-background-element {
+      display: none;
+    }
+
+    .jumbotron_block { display: block; }
+  @media screen and (min-width: 1280px) {
+    .jumbotron_mobile { display: none; }
+    .jumbotron_block { display: block; }
+  }
+
+</style>
+
+      <style>
+          .jumbotron_block .custom-container {
+            max-width: 100vw;
+            height: 95vmin;
+            max-height: 700px; 
+            overflow: hidden;
+            margin: auto;
+            position: relative;
+          }
+          .jumbotron_block .element-container {
+            max-width: 1280px;
+            width: 100%;
+            height: 100%;
+            position:absolute;
+            padding-top: 80px;
+            display: flex; flex-direction: column; justify-content: center;
+          }
+          .jumbotron_block #custom-background-element {
+            z-index: 2;
+            height: 100%;
+            position: absolute;
+            width: 100%;
+          }
+          .jumbotron_block #custom-text-element,
+          .jumbotron_block #custom-image-element {
+            width: 100%;
+            
+            display: block;
+            position: absolute;
+          }
+          .jumbotron_block #custom-text-element {
+            z-index: 4;
+          }
+          .jumbotron_block #custom-image-element {
+            
+            
+            z-index: 3;
+            bottom: 0;
+            display: flex;
+          }
+          .jumbotron_block .text-container span {
+            white-space: break-spaces;
+          }
+        @media screen and (min-width: 1280px) {
+          .jumbotron_block .element-container {
+            left: calc(50% - 640px);
+          }
+          .jumbotron_block #custom-text-element,
+          .jumbotron_block #custom-image-element {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            max-height: 620px;
+          }
+          .jumbotron_block #custom-text-element {
+            z-index: 4;
+          }
+          .jumbotron_block #custom-image-element {
+            z-index: 3;
+          }
+        }
+      </style>
+
+
+  <div class="top-background custom_template" data-controller="jumbotron" data-image="https://landingwebimg.s3.amazonaws.com/uploads/landing_page/image/55279/2023-06-01_14_49_13_-0700.png" data-has-opacity="true" data-has-text-shadow="true" data-is-root-path="true">
+    <main id="content" role="main">
+      <div class="container position-relative z-index-2 jumbotron-max-height-400 normal" style="padding:0;">
+        <div class="row text-block">
+            <div class="col-sm-12 header jumbo-sizer" style="color: #FFFFFF; font-family: &#39;Open sans&#39;, sans-serif;">
+         </div>
+       </div>
+     </div>
+   </main>
+  </div>
+
+<style>
+  .top-background {
+    position: relative;
+  }
+  .top-background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .no-homepage-text-block {
+    margin-top: 35px;
+  }
+
+  #content .home {
+    padding: 30px 0 120px 0;
+  }
+
+  @media screen and (min-width: 992px) {
+    #content {
+      /*margin-top: -200px;*/
+    }
+
+    #content .home {
+      padding: 30px 0;
+    }
+
+    #content .text-block {
+      margin-top: 0;
+    }
+  }
+  </style>
+
+
+<style>
+.jumbo-sizer {
+  font-size: 38px !important;
+}
+@media screen and (max-width: 568px) {
+  .jumbo-sizer {
+    font-size: 30px !important;
+  }
+}
+
+.jumbo-title {
+  font-size: 2.375rem;
+}
+@media screen and (max-width: 568px) {
+  .jumbo-title {
+    font-size: 1.7272727272727273rem;
+  }
+}
+  .text-block {
+    height: 100%;
+  }
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:15px;
+
+}
+.header span {
+  margin-top:15px;
+}
+
+.header-no-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+  text-align: center;
+  font-size: 39px;
+  text-shadow: rgb(0 0 0) -1px 1px 1px;
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top:15px;
+      margin-bottom:15px;
+    }
+    .header-no-root {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 65px;
+      font-size: 26px !important;
+      text-shadow: rgb(0 0 0) -1px 1px 1px;
+    }
+}
+</style>
+      
+
+
+
+  
+  
+
+
+<div>
+    <turbo-frame name="group-724565" data-turbo-permanent='initial-value' src="/custom_pages/16173/custom_page_groups/724565?counter=0&amp;index=0&amp;parent_action=show&amp;parent_controller=landing_pages" id="group-724565" lazy="true">
+      <div class="container" >
+        <div class="shimmable">
+          <div class="shimmer" style="position: relative; height: 500px;">
+          </div>
+        </div>
+      </div>
+    </turbo-frame>
+    <turbo-frame name="group-724531" data-turbo-permanent='initial-value' src="/custom_pages/16173/custom_page_groups/724531?counter=1&amp;index=1&amp;parent_action=show&amp;parent_controller=landing_pages" id="group-724531" lazy="true">
+      <div class="container" >
+        <div class="shimmable">
+          <div class="shimmer" style="position: relative; height: 500px;">
+          </div>
+        </div>
+      </div>
+    </turbo-frame>
+    <turbo-frame name="group-724528" data-turbo-permanent='initial-value' src="/custom_pages/16173/custom_page_groups/724528?counter=1&amp;index=2&amp;parent_action=show&amp;parent_controller=landing_pages" id="group-724528" lazy="true">
+      <div class="container" >
+        <div class="shimmable">
+          <div class="shimmer" style="position: relative; height: 500px;">
+          </div>
+        </div>
+      </div>
+    </turbo-frame>
+    <turbo-frame name="group-724533" data-turbo-permanent='initial-value' src="/custom_pages/16173/custom_page_groups/724533?counter=1&amp;index=3&amp;parent_action=show&amp;parent_controller=landing_pages" id="group-724533" lazy="true">
+      <div class="container" >
+        <div class="shimmable">
+          <div class="shimmer" style="position: relative; height: 500px;">
+          </div>
+        </div>
+      </div>
+    </turbo-frame>
+    <turbo-frame name="group-724536" data-turbo-permanent='initial-value' src="/custom_pages/16173/custom_page_groups/724536?counter=1&amp;index=4&amp;parent_action=show&amp;parent_controller=landing_pages" id="group-724536" lazy="true">
+      <div class="container" >
+        <div class="shimmable">
+          <div class="shimmer" style="position: relative; height: 500px;">
+          </div>
+        </div>
+      </div>
+    </turbo-frame>
+    <turbo-frame name="group-724538" data-turbo-permanent='initial-value' src="/custom_pages/16173/custom_page_groups/724538?counter=1&amp;index=5&amp;parent_action=show&amp;parent_controller=landing_pages" id="group-724538" lazy="true">
+      <div class="container" >
+        <div class="shimmable">
+          <div class="shimmer" style="position: relative; height: 500px;">
+          </div>
+        </div>
+      </div>
+    </turbo-frame>
+    <turbo-frame name="group-143196" data-turbo-permanent='initial-value' src="/custom_pages/16173/custom_page_groups/143196?counter=1&amp;index=6&amp;parent_action=show&amp;parent_controller=landing_pages" id="group-143196" lazy="true">
+      <div class="container" >
+        <div class="shimmable">
+          <div class="shimmer" style="position: relative; height: 500px;">
+          </div>
+        </div>
+      </div>
+    </turbo-frame>
+    <turbo-frame name="group-143199" data-turbo-permanent='initial-value' src="/custom_pages/16173/custom_page_groups/143199?counter=1&amp;index=7&amp;parent_action=show&amp;parent_controller=landing_pages" id="group-143199" lazy="true">
+      <div class="container" >
+        <div class="shimmable">
+          <div class="shimmer" style="position: relative; height: 500px;">
+          </div>
+        </div>
+      </div>
+    </turbo-frame>
+    <turbo-frame name="group-724573" data-turbo-permanent='initial-value' src="/custom_pages/16173/custom_page_groups/724573?counter=1&amp;index=8&amp;parent_action=show&amp;parent_controller=landing_pages" id="group-724573" lazy="true">
+      <div class="container" >
+        <div class="shimmable">
+          <div class="shimmer" style="position: relative; height: 500px;">
+          </div>
+        </div>
+      </div>
+    </turbo-frame>
+    <turbo-frame name="group-724576" data-turbo-permanent='initial-value' src="/custom_pages/16173/custom_page_groups/724576?counter=1&amp;index=9&amp;parent_action=show&amp;parent_controller=landing_pages" id="group-724576" lazy="true">
+      <div class="container" >
+        <div class="shimmable">
+          <div class="shimmer" style="position: relative; height: 500px;">
+          </div>
+        </div>
+      </div>
+    </turbo-frame>
+    <turbo-frame name="group-724577" data-turbo-permanent='initial-value' src="/custom_pages/16173/custom_page_groups/724577?counter=1&amp;index=10&amp;parent_action=show&amp;parent_controller=landing_pages" id="group-724577" lazy="true">
+      <div class="container" >
+        <div class="shimmable">
+          <div class="shimmer" style="position: relative; height: 500px;">
+          </div>
+        </div>
+      </div>
+    </turbo-frame>
+</div>
+
+
+
+<script>
+  document.addEventListener("turbo:load", function() {
+    var url = window.location.href;
+
+    setTimeout(() => {
+    if (url.split("#")[1]) {
+      if (url.split("#")[1].startsWith("bio")) {
+        var firstBio = document.querySelector('[id^="bios-"]');
+        if (firstBio) {
+          $('html, body').animate({ scrollTop:$(`#${firstBio.id}`).offset().top}, 1000);
+        } else {
+          $('html, body').animate({ scrollTop:$('#bioanchor').offset().top}, 1000);
+        }
+      } else if (url.split("#")[1].startsWith("calendar")) {
+        var firstCal = document.querySelector('[id^="calendar-"]');
+        if (firstCal) {
+          $('html, body').animate({ scrollTop:$(`#${firstCal.id}`).offset().top}, 1000);
+        } else {
+          $('html, body').animate({ scrollTop:$('#calendaranchor').offset().top}, 1000);
+        }
+      } else if (url.split("#")[1].startsWith("image")) {
+        var firstGal = document.querySelector('[id^="imagesanchor-"]');
+        if (firstGal) {
+          $('html, body').animate({ scrollTop:$(`#${firstGal.id}`).offset().top}, 1000);
+        } else {
+          $('html, body').animate({ scrollTop:$("#imagesanchor").offset().top}, 1500);
+        }
+      }
+    }
+    }, 500);
+  });
+
+</script>
+
+    </div>
+    <div id="footer-section" class="footer-nav">
+      <footer class="footer footer-classic" data-controller="footer">
+  <div class="container">
+    <div class="row" style="line-height: 2 !important; padding: 15px 0 20px 0;" >
+      <div class="col-12 text-center">
+          <div id="terms-link-section" style="width: 100%;">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <span class="text-muted">
+            <a href="/terminos">Términos y condiciones</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      </div>
+      <div class="col-12 text-center" style="padding: 0;">
+        <span class="">
+          © 2023 Todos los derechos reservados
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+.footer-classic {
+  background-color: #2196F3 !important;
+  color: rgb(33, 37, 41);
+  height: auto !important;
+  min-height: 60px;
+}
+.footer-classic a,
+.footer a:hover {
+  color: rgb(33, 37, 41);
+}
+
+.footer-classic a {
+  text-decoration: none;
+}
+.footer-classic a:hover {
+  text-decoration: underline;
+}
+
+.footer-artistic {
+  bottom: 0;
+  width: 100%;
+  height: auto !important;
+  /*padding-top: 10px;*/
+  padding-bottom: 50px;
+  background-color: #2196F3 !important;
+  color: rgb(33, 37, 41);
+}
+
+.footer-artistic a,
+.footer-artistic a:hover {
+  color: rgb(33, 37, 41);
+}
+
+.footer-artistic a {
+  text-decoration: none;
+}
+.footer-artistic a:hover {
+  text-decoration: underline;
+}
+.img-footer {
+  padding: 0 50px 10px 50px;
+}
+.text-muted {
+  color: #6c757d !important;
+}
+
+.red-size {max-width: 80% !important;}
+
+@media screen and (max-width: 768px) {
+  .txt-alignment {text-align: center;}
+}
+
+@media screen and (min-width: 768px) {
+  .img-footer {
+    padding: 0 50px;
+  }
+  .red-size {max-width: 60% !important;}
+
+}
+.media-icons-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.media-icons-group.left {
+  justify-content: flex-start;
+}
+
+.media-icons-group.center {
+  justify-content: center;
+}
+
+.media-icons {
+  display: flex;
+  padding: 3px;
+  background-color: lightgray;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: 3px;
+  text-decoration: none !important;
+}
+
+.media-icons i {
+  color: white;
+}
+
+.media-icons-group.squared .media-icons {
+  border-radius: 10px !important;
+}
+
+.media-icons-group.rounded .media-icons {
+  border-radius: 100% !important;
+}
+</style>
+
+    </div>
+    <style>
+      .trix-content p { font-family: 'Open sans', sans-serif;}
+      .trix-content h1, h1 { font-family: 'Open sans', sans-serif !important; }
+      .trix-content h2, h2 { font-family: 'Open sans', sans-serif !important; }
+      .trix-content h3, h3 { font-family: 'Open sans', sans-serif !important; }
+      .trix-content h4, h4 { font-family: 'Open sans', sans-serif !important; }
+      .trix-content h5, h5 { font-family: 'Open sans', sans-serif !important; }
+    </style>
+  </body>
 </html>
